@@ -4,7 +4,10 @@
     - AWSLambdaFullAccess
     - IAMFullAccess
     - AmazonAPIGatewayAdministration
-    
+
+If you have trouble with these steps check out claudia's doc for further informations: https://claudiajs.com/tutorials/installing.html
+
+If you have never deployed any bot with claudia I suggest you to follow claudia's hello world example: https://claudiajs.com/tutorials/hello-world-chatbot.html    
    
 ## Usage
 
@@ -16,16 +19,19 @@
 
 ### Development 
 
-You should write your ES6 code in the file `bot.source.js` located in the `src` folder. This file will be later traspiled in the file `bot.js`. 
+You should write your ES6 code in the file `bot.source.js` located in the `src` folder. This file will be later transpiled in the file `bot.js`. 
 
-Use `npm run transpile` to transpile the code to the `bot.js` file
 Use `npm run update` to traspile and push the updated code to the lambda 
+
+
+Use `npm run transpile` to only transpile the code to the `bot.js` file
 
 
 ## Suggestions
 
-If you plan to use the bot only in few platforms add an object containing an array with the platforms. This will improve deploy performances!
-Eg:
+If you plan to use the bot only in few platforms add an object containing an array with the platforms to the `botBuilder` function. This will improve deploy performances!
+
+Example:
 
 ```javascript
 const botBuilder = require('claudia-bot-builder')
