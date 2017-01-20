@@ -26,7 +26,7 @@ Use `npm run update` to traspile and push the updated code to the lambda
 
 Use `npm run transpile` to only transpile the code to the `bot.js` file
 
-See [package.json](https://github.com/ilbonte/claudia-bot-es6/blob/master/package.json#L6) for additional informations
+See [package.json](https://github.com/ilbonte/claudia-bot-es6/blob/master/package.json#L6) for additional informations about these commands
 
 ## Suggestions
 
