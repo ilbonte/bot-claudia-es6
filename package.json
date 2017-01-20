@@ -1,7 +1,7 @@
 {
   "name": "telegram-bot-es6",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate for developing chat bot with ES6 on AWS lambda",
   "main": "index.js",
   "scripts": {
     "claudia": "claudia",
